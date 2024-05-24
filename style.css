@@ -90,14 +90,6 @@
     font-size: 1.2em;
 }
 
-.card-img-top {
-    width: 40%;
-    margin: 10px auto;
-}
-
-.card {
-    transition: .3s ease-in-out;
-}
-.card:hover {
-    transform: scale(1.1);
+.card_icon_img {
+    width: 65%;
 }
