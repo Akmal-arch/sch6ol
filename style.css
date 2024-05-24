@@ -2,7 +2,7 @@
 .navbar {
     background-color: #fff;
     height: 80px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 16px;
     padding: 0.5rem;
 }
@@ -88,4 +88,9 @@
 }
 .hero-section h2 {
     font-size: 1.2em;
+}
+
+.card-img-top {
+    width: 40%;
+    margin: 10px auto;
 }
