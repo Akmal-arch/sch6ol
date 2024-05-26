@@ -15,6 +15,7 @@
     color: #009970;
     font-size: 24px;
     transition: 0.3s color;
+    font-family: sans-serif !important;
 }
 
 .login-button {
