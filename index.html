@@ -7,11 +7,12 @@
     <title>XUSH KELIBSIZ - SCH60L</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar shadow navbar-expand-lg fixed-top">
+    <nav id="navbar" class="navbar shadow navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand me-auto" href="#">Sch<span style="color: darkgreen;">60</span>l</a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -23,10 +24,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">UY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">XAQIDA</a>
+                            <a class="nav-link mx-lg-2" href="#about_school">XAQIDA</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#">MAMURIYAT</a>
@@ -63,10 +61,11 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/classes_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/classes_icon.png" class="card_icon_img img-fluid rounded-start"
+                                    alt="classes_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -81,10 +80,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" data-aos-delay="100" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/food_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/food_icon.png" class="card_icon_img img-fluid rounded-start" alt="food_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -99,10 +98,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" data-aos-delay="200" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/it_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/it_icon.png" class="card_icon_img img-fluid rounded-start" alt="coding_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -117,10 +116,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" data-aos-delay="300" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/school_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/school_icon.png" class="card_icon_img img-fluid rounded-start"
+                                    alt="school_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -135,10 +135,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" data-aos-delay="400" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/secure_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/secure_icon.png" class="card_icon_img img-fluid rounded-start"
+                                    alt="security_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -153,10 +154,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card mb-3">
+                    <div data-aos="fade-up" data-aos-delay="500" class="card mb-3">
                         <div class="row g-0">
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img src="images/stadium_icon.png" class="card_icon_img img-fluid rounded-start" alt="...">
+                                <img src="images/stadium_icon.png" class="card_icon_img img-fluid rounded-start"
+                                    alt="stadium_icon">
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
@@ -175,7 +177,36 @@
     </section>
     <!-- End Cards -->
 
+    <!-- About School -->
+    <section id="about_school" class="py-5">
+        <div class="container">
+            <div class="row align-items-center gx-4">
+                <div data-aos="fade-right" class="col-md-5">
+                    <div class="ms-md-2 ms-lg-5"><img class="img-fluid rounded-3" src="images/books.png"></div>
+                </div>
+                <div data-aos="fade-left" class="col-md-6 offset-md-1">
+                    <div class="ms-md-2 ms-lg-4">
+                        <span class="text-muted">60 - Maktab</span>
+                        <h2 class="display-5 fw-bold">Biz Xaqimizda</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        </p>
+                        <a href="#" class="btn btn-outline-primary mt-4" tabindex="-1" role="button"
+                            aria-disabled="true">5 - Tashabbus Xaqida</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About School -->
+
     <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
