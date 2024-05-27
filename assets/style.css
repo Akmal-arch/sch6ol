@@ -101,3 +101,15 @@
 #features {
     background-color: #F5F5F5;
 }
+
+@media (max-width: 481px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    #teachers .card {
+        max-width: 80%;
+        margin: auto;
+    }
+}
