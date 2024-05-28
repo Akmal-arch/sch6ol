@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -10,12 +12,26 @@
     border-radius: 16px;
     padding: 0.5rem;
 }
+
 .navbar-brand {
-    font-weight: 500;
-    color: #009970;
+    color: #000;
     font-size: 24px;
     transition: 0.3s color;
-    font-family: sans-serif !important;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.navbar-brand span {
+    display: block;
+    position: absolute;
+    top: 78%;
+    font-size: 28px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #04c755;
+    font-family: "Lilita One", sans-serif;  
 }
 
 .login-button {
@@ -27,25 +43,33 @@
     text-decoration: none;
     transition: .3s background-color;
 }
+
 .login-button:hover {
     background-color: #00b383;
 }
+
 .navbar-toggler {
     border: none;
     font-size: 1.25rem;
 }
-.navbar-toggler:focus, .btn-close:focus {
+
+.navbar-toggler:focus,
+.btn-close:focus {
     box-shadow: none;
     outline: none;
 }
+
 .nav-link {
     color: #666777;
     font-weight: 500;
     position: relative;
 }
-.nav-link:hover, .nav-link.active {
+
+.nav-link:hover,
+.nav-link.active {
     color: #000;
 }
+
 @media (min-width: 991px) {
     .nav-link:before {
         content: "";
@@ -60,7 +84,8 @@
         transition: 0.3s ease-in-out;
     }
 
-    .nav-link:hover::before, .nav-link.active::before {
+    .nav-link:hover::before,
+    .nav-link.active::before {
         width: 100%;
         visibility: visible;
     }
@@ -72,6 +97,7 @@
     background-size: cover;
     width: 100%;
 }
+
 .hero-section:before {
     background-color: rgba(0, 0, 0, 0.6);
     content: "";
@@ -91,6 +117,7 @@
 .hero-section h1 {
     font-size: 1.5em;
 }
+
 .hero-section h2 {
     font-size: 1.2em;
 }
@@ -98,6 +125,7 @@
 .card_icon_img {
     width: 65%;
 }
+
 #features {
     background-color: #F5F5F5;
 }
@@ -107,9 +135,24 @@
         font-size: 14px;
     }
 }
+
 @media (max-width: 600px) {
     #teachers .card {
         max-width: 80%;
         margin: auto;
+    }
+}
+
+
+#about_classes {
+    height: calc(content + 20vh);
+    width: 100%;
+    background-color: #111;
+}
+
+@media (max-width: 991px) {
+    #about_classes img {
+        width: 90%;
+        
     }
 }
