@@ -42,25 +42,29 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-0">
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#about_school"><i
-                                    class="fa-regular fa-address-card me-1"></i> XAQIDA</a>
+                            <button data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#about_school"><i class="fa-regular fa-address-card me-1"></i> XAQIDA</a>
+                            </button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2 fw-5" href="#teachers"><i class="fa-solid fa-user-tie me-1 "></i>
-                                MA'MURIYAT</a>
+                            <button data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2 fw-5" href="#teachers"><i class="fa-solid fa-user-tie me-1 "></i> MA'MURIYAT</a>
+                            </button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#"><i class="fa-solid fa-person-chalkboard me-1"></i>
-                                KURSLAR</a>
+                            <button data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#courses"><i class="fa-solid fa-person-chalkboard me-1"></i> KURSLAR</a>
+                            </button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#"><i class="fa-regular fa-address-book me-1"></i>
-                                ALOQA</a>
+                            <button data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#"><i class="fa-regular fa-address-book me-1"></i> ALOQA</a>
+                            </button>
                         </li>
                     </ul>
                 </div>
             </div>
-            <a href="login.html" class="login-button"><i class="bi bi-box-arrow-in-right me-1"></i> Kirish</a>
+            <a href="login.html" class="login-button me-3"><i class="bi bi-box-arrow-in-right me-1"></i> Kirish</a>
             <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -294,19 +298,25 @@
 
     <!-- About_Courses -->
     <section id="about_courses" class="text-white">
-        <div class="course_hero d-flex position-relative justify-content-center align-items-center flex-column">
+        <div id="courses"
+            class="course_hero d-flex position-relative justify-content-center align-items-center flex-column">
             <h1>Kelajak Kasblar Markazi</h1>
-            <h1 data-aos="fade-up" data-aos-delay="300" class="position-absolute top-50 mt-5 start-50 translate-middle"><i class="bi bi-arrow-bar-down"></i>
+            <h1 data-aos="fade-up" data-aos-delay="300" class="position-absolute top-50 mt-5 start-50 translate-middle">
+                <i class="bi bi-arrow-bar-down"></i>
             </h1>
         </div>
         <div class="container-md py-5">
             <div class="banner text-center">
-                <h1 data-aos="fade-up" class="text-center mt-3 mb-5">Discover FurniFlex - <br> Where Innovation Meets Design</h1>
-                <img data-aos="fade-up" style="width: 90%; border-radius: 15px;" class="mb-5" src="images/school-2.webp" alt="">
+                <h1 data-aos="fade-up" class="text-center mt-3 mb-5">Discover FurniFlex - <br> Where Innovation Meets
+                    Design</h1>
+                <img data-aos="fade-up" style="width: 90%; border-radius: 15px;" class="mb-5" src="images/school-2.webp"
+                    alt="">
                 <p data-aos="fade-up" class="mb-2">FurniFlex Challenging</p>
                 <h1 data-aos="fade-up" class="mb-2">The FurniFlex Journey Story</h1>
-                <p data-aos="fade-up" class="text-secondary mb-5 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias
-                    dolores assumenda odit nam ab ullam, reprehenderit ex facilis natus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ducimus fuga atque quasi! Aliquid ratione quisquam est tenetur, eveniet excepturi.</p>
+                <p data-aos="fade-up" class="text-secondary mb-5 pb-5">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolore alias
+                    dolores assumenda odit nam ab ullam, reprehenderit ex facilis natus? Lorem iid ratione quisquam est
+                    tenetur, eveniet excepturi.</p>
             </div>
             <div class="main-timeline-2">
                 <div data-aos="fade-up" class="timeline-2 left-2">
@@ -314,13 +324,13 @@
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(135).webp" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">Ut enim ad minim veniam</h4>
-                            <p class="mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
+                            <h4 class="fw-bold mb-4 mb-sm-3">Ut enim ad minim veniam</h4>
+                            <p class="mb-4 mb-sm-3"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
                             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                ullamco laboris nisi ut aliquip e</p>
                         </div>
                     </div>
                 </div>
@@ -329,16 +339,14 @@
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(129).webp" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">Duis aute irure dolor</h4>
-                            <p class="mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
+                            <h4 class="fw-bold mb-4 mb-sm-3">Duis aute irure dolor</h4>
+                            <p class="mb-4 mb-sm-3"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
                             <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
                                 quasi
                                 architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                                 sit
-                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                voluptatem
-                                sequi nesciunt.</p>
+                                a</p>
                         </div>
                     </div>
                 </div>
@@ -347,8 +355,8 @@
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">Sed ut nihil unde omnis</h4>
-                            <p class="mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2015</p>
+                            <h4 class="fw-bold mb-4 mb-sm-3">Sed ut nihil unde omnis</h4>
+                            <p class="mb-4 mb-sm-3"><i class="far fa-clock" aria-hidden="true"></i> 2015</p>
                             <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                                 consectetur,
                                 adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
@@ -356,9 +364,7 @@
                                 aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
                                 corporis
                                 suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                                reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-                                qui
-                                dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -367,15 +373,14 @@
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(125).webp" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4"> Quis autem vel eum voluptate</h4>
-                            <p class="mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2014</p>
+                            <h4 class="fw-bold mb-4 mb-sm-3"> Quis autem vel eum voluptate</h4>
+                            <p class="mb-4 mb-sm-3"><i class="far fa-clock" aria-hidden="true"></i> 2014</p>
                             <p class="mb-0">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                                 praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
                                 sint
                                 occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
                                 mollitia animi,
-                                id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-                                distinctio.</p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -390,8 +395,7 @@
                                 saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
                                 earum rerum
                                 hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-                                consequatur aut
-                                perferendis doloribus asperiores repellat.</p>
+                                .</p>
                         </div>
                     </div>
                 </div>

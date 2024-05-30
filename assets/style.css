@@ -35,6 +35,13 @@
     font-family: "Lilita One", sans-serif;  
 }
 
+.navbar button {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
 .login-button {
     background-color: #009970;
     color: #fff;
