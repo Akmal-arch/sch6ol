@@ -3,7 +3,3 @@
         height: 40vh;
     }
 }
-
-#contact .col-md-6:nth-child(1) {
-    border-bottom: 3px solid gray;
-}
