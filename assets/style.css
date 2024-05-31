@@ -35,7 +35,7 @@
     font-family: "Lilita One", sans-serif;  
 }
 
-.navbar button {
+.navbar .nav-item-btn {
     border: none;
     background: transparent;
     margin: 0;
