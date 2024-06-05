@@ -130,12 +130,16 @@
     font-size: 1.2em;
 }
 
-.card_icon_img {
-    width: 65%;
-}
 
 #features {
     background-color: #F5F5F5;
+}
+#features .carousel-item .container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 @media (max-width: 481px) {
@@ -194,4 +198,48 @@
     background-color: #1A2029;
     color: #fff;
 }
+
+#achievements img {
+    width: 70%;
+}
+#achievements .row {
+    position: relative;
+    top: -30px;
+}
+#achievements h1 {
+    font-size: 4.125rem;
+    color: coral;
+}
+#achievements p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+
+}
+section#counter-stats .row {
+    margin-top: 50px;
+}
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+@media (max-width: 767px) {
+    section#counter-stats img {
+        width: 90%;
+    }
+}
+/*/ end count stats /*/
 

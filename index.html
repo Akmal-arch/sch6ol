@@ -90,16 +90,49 @@
 
 
     <!-- cards -->
-    <section id="features" class="py-5">
-        <div class="container">
-            <div class="d-flex justify-content-around align-items-center">
-                <h1>News and Events</h1>
-                <div>
-                    <span class="badge text-bg-secondary p-2">All</span>
-                    <span class="badge text-bg-secondary p-2">Ecology</span>
-                    <span class="badge text-bg-secondary p-2">Technology</span>
+    <section id="features" class="">
+        <div id="features-carousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#features-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#features-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#features-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-dark text-white" style="height: 50vh">
+                    <div class="container">
+                        <img src="images/portrait-cute-young-boy-with-copy-space.png" class="d-block w-25 mb-3" alt="">
+                        <h1 class="">O'quvchilar Uchun</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod illo quo omnis aut deleniti nostrum eaque magnam provident ab voluptatem consequatur nihil non quos fugit, ipsum vel explicabo excepturi!</p>
+                        <a href="#" class="btn btn-outline-primary" tabindex="-1" role="button" aria-disabled="true">Batafsil</a>
+                    </div>
+                </div>
+                <div class="carousel-item bg-dark text-white" style="height: 50vh">
+                    <div class="container">
+                        <img src="" alt="">
+                        <h1>Ota-Onalar Uchun</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque inventore nesciunt consequatur natus. Provident rem facilis beatae modi enim facere quibusdam, vel at accusantium eum ducimus, ratione corrupti. Nemo, optio.</p>
+                    </div>
+                </div>
+                <div class="carousel-item bg-dark text-white" style="height: 50vh">
+                    <div class="container">
+                        <h1>O'qituvchilar Uchun</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, a? Facere, hic? Distinctio autem doloremque, vero ab dignissimos repellendus. Impedit corrupti fugit alias autem natus perspiciatis ab illum tenetur itaque.</p>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#features-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#features-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
     <!-- End Cards -->
@@ -122,7 +155,7 @@
                         <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         </p>
                         <a href="#" class="btn btn-outline-primary mt-4" tabindex="-1" role="button"
-                            aria-disabled="true">5 - Tashabbus Xaqida <i
+                            aria-disabled="true">Ko'proq bilish <i
                                 class="fa-solid fa-arrow-right-to-bracket ms-1"></i></a>
                     </div>
                 </div>
@@ -185,6 +218,10 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-outline-primary py-2 px-3 mt-4 " tabindex="-1" role="button" aria-disabled="true">Batafsil <i
+                    class="fa-solid fa-arrow-right-to-bracket ms-1"></i></a>
+            </div>
         </div>
     </section>
     <!-- End Teachers Carousel -->
@@ -200,9 +237,9 @@
         </div>
         <div class="container-md py-5">
             <div class="banner text-center">
-                <h1 data-aos="fade-up" class="text-center mt-3 mb-5">Discover FurniFlex - <br> Where Innovation Meets
+                <h1 data-aos="fade-up" class="text-center mt-3 mb-5">Disfill FurniFlex - <br> Where Innovation Meets
                     Design</h1>
-                <img data-aos="fade-up" style="width: 90%; border-radius: 15px;" class="mb-5" src="images/school-2.webp"
+                <img data-aos="fade-up" style="width: 90%; border-radius: 15px;" class="mb-5" src="images/DSC_0212.JPG"
                     alt="">
                 <p data-aos="fade-up" class="mb-2">FurniFlex Challenging</p>
                 <h1 data-aos="fade-up" class="mb-2">The FurniFlex Journey Story</h1>
@@ -214,7 +251,7 @@
             <div class="main-timeline-2">
                 <div data-aos="fade-up" class="timeline-2 left-2">
                     <div class="card">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(135).webp" class="card-img-top"
+                        <img src="images/it_room.JPG" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
                             <h4 class="fw-bold mb-4 mb-sm-3">Ut enim ad minim veniam</h4>
@@ -229,7 +266,7 @@
                 </div>
                 <div data-aos="fade-up" class="timeline-2 right-2">
                     <div class="card">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(129).webp" class="card-img-top"
+                        <img src="images/library_room.JPG" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
                             <h4 class="fw-bold mb-4 mb-sm-3">Duis aute irure dolor</h4>
@@ -245,7 +282,7 @@
                 </div>
                 <div data-aos="fade-up" class="timeline-2 left-2">
                     <div class="card">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp" class="card-img-top"
+                        <img src="images/gaming_room.JPG" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
                             <h4 class="fw-bold mb-4 mb-sm-3">Sed ut nihil unde omnis</h4>
@@ -263,7 +300,7 @@
                 </div>
                 <div data-aos="fade-up" class="timeline-2 right-2">
                     <div class="card">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(125).webp" class="card-img-top"
+                        <img src="images/cook_room.JPG" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
                             <h4 class="fw-bold mb-4 mb-sm-3"> Quis autem vel eum voluptate</h4>
@@ -279,7 +316,7 @@
                 </div>
                 <div data-aos="fade-up" class="timeline-2 left-2">
                     <div class="card">
-                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(144).webp" class="card-img-top"
+                        <img src="images/music_room.JPG" class="card-img-top"
                             alt="Responsive image">
                         <div class="card-body p-4">
                             <h4 class="fw-bold mb-4">Mussum ipsum cacilds</h4>
@@ -297,17 +334,61 @@
     </section>
     <!-- End About_Classes -->
 
+    <!-- start count stats -->
+
+    <section id="counter-stats" class="wow fadeInRight mt-0 pt-5" data-wow-duration="1.4s">
+        <div class="container text-center">
+            <img class="img-fluid w-75 rounded"
+                src="https://plus.unsplash.com/premium_photo-1683749809341-23a70a91b195?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+            <div class="row position-relative">
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <div class="counting" data-count="900000">0</div>
+                    <h5>Lines of code</h5>
+                </div>
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <div class="counting" data-count="280">0</div>
+                    <h5>Projects done</h5>
+                </div>
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <div class="counting" data-count="75">0</div>
+                    <h5>Happy clients</h5>
+                </div>
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <div class="counting" data-count="999">0</div>
+                    <h5>Cups of coffee</h5>
+                </div>
+
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+    </section>
+
+    <!-- end cont stats -->
+
+
     <!-- Contact -->
     <section id="contact" class="my-3 py-5">
         <div class="container px-3">
-            <div class="row" style="border: 3px solid #e4e4e9; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+            <div class="row"
+                style="border: 3px solid #e4e4e9; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px;">
                 <div class="col-md-6 p-3 mb-2">
                     <h1 class="text-center text-success mt-1">60 - Maktab</h1>
                     <p class="text-center">Biz bilan bog'laning</p>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">To'liq Ism: </label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            >
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email manzil: </label>
@@ -332,7 +413,28 @@
                     <button class="btn btn-primary" type="submit">Jo'natish</button>
                 </div>
                 <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.074205675103!2d68.40514335516195!3d39.96957417221584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b24f970d500c67%3A0xb8a3f65b4e32a262!2s60-Maktab!5e0!3m2!1sru!2s!4v1717069526719!5m2!1sru!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.074205675103!2d68.40514335516195!3d39.96957417221584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b24f970d500c67%3A0xb8a3f65b4e32a262!2s60-Maktab!5e0!3m2!1sru!2s!4v1717069526719!5m2!1sru!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div id="contact_info" class="row mt-5">
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/location_icon.png" alt="">
+                    <p>Brand St., Brand City, <br> New York 2385</p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/phone_icon.png" alt="">
+                    <p>+998994387432 <br> +998991234567</p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/email_icon.png" alt="">
+                    <p><a href="" type="email">info@sch60l.uz</a></p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/website_icon.png" alt="">
+                    <p><a href="https://sch60l.uz">www.sch60l.uz</a></p>
                 </div>
             </div>
         </div>
@@ -352,10 +454,10 @@
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Bosh Sahifa</a></li>
                 <li class="list-inline-item"><a href="#about_school">Xaqida</a></li>
-                <li class="list-inline-item"><a href="#">Mamuriyat</a></li>
-                <li class="list-inline-item"><a href="#">Kurslar</a></li>
-                <li class="list-inline-item"><a href="#">Aloqa</a></li>
+                <li class="list-inline-item"><a href="#teachers">Mamuriyat</a></li>
+                <li class="list-inline-item"><a href="#courses">Kurslar</a></li>
                 <li class="list-inline-item"><a href="login.html">Kirish</a></li>
+                <li class="list-inline-item"><a href="#contact">Aloqa</a></li>
             </ul>
             <p class="copyright">Sch60l - 60 Maktab © 2024</p>
         </footer>
@@ -415,6 +517,9 @@
             }
         })
     </script>
+
+    <!-- Assets -->
+    <script src="assets/count.js"></script>
 </body>
 
 </html>
