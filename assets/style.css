@@ -134,6 +134,13 @@
 #features {
     background-color: #F5F5F5;
 }
+#features .carousel-item .container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 @media (max-width: 481px) {
     html {
