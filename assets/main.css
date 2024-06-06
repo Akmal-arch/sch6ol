@@ -1,7 +1,7 @@
 /* Fixed contact us btn */
 .fixed_btn {
     position: fixed;
-    top: 50%;
+    top: 70%;
     right: 0;
     transform: translateY(-50%);
     display: flex;
