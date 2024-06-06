@@ -9,14 +9,13 @@
     <link rel="icon" href="images/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Assets -->
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/footer.css">
-    <link rel="stylesheet" href="assets/timeline.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/links.css">
+    <link rel="stylesheet" href="assets/nav.css">
     <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/owl-carousel.css">
 
     <!-- AOS scroll animation -->
@@ -35,7 +34,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar shadow navbar-expand-lg fixed-top">
+    <nav id="navbar" class="bg-light navbar shadow-lg navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand me-auto" href="#">School <br> <span>60</span></a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -60,7 +59,7 @@
                         </li>
                         <li class="nav-item">
                             <button class="nav-item-btn" data-bs-dismiss="offcanvas">
-                                <a class="nav-link mx-lg-2" href="#courses"><i
+                                <a class="nav-link mx-lg-2" href="#about_courses"><i
                                         class="fa-solid fa-person-chalkboard me-1"></i> KURSLAR</a>
                             </button>
                         </li>
@@ -99,11 +98,6 @@
     </div>
     <!-- End fixed button -->
 
-    <!-- cards -->
-    <section id="features" class="my-5">
-
-    </section>
-    <!-- End Cards -->
 
 
     <!-- About School -->
@@ -124,7 +118,7 @@
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                         <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         </p>
-                        <a href="#" class="btn btn-outline-primary mt-4" tabindex="-1" role="button"
+                        <a href="about.html" class="btn btn-outline-primary mt-4" tabindex="-1" role="button"
                             aria-disabled="true">Ko'proq bilish <i
                                 class="fa-solid fa-arrow-right-to-bracket ms-1"></i></a>
                     </div>
@@ -136,7 +130,7 @@
 
 
     <!-- Teachers Carousel -->
-    <section class="testimonials mt-5">
+    <section id="teachers" class="testimonials mt-5">
         <div class="container">
             <h1 data-aos="fade-up" class="display-4 text-center fw-bold mt-2 pb-3">Bizning <span
                     class="text-success">Jamoamiz</span></h1>
@@ -145,45 +139,45 @@
                     <div id="customers-testimonials" class="owl-carousel">
                         <div class="item">
                             <div class="shadow-effect">
-                                <img class="img-circle"
-                                    src="images/man.png" alt=""> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas, quod ab itaque id!</p>
+                                <img class="img-circle" src="images/man.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas,
+                                    quod ab itaque id!</p>
                             </div>
                             <div class="testimonial-name">EMILIANO AQUILANI</div>
                         </div>
                         <div class="item">
                             <div class="shadow-effect">
-                                <img class="img-circle"
-                                    src="images/man.png" alt=""> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas, quod ab itaque id!</p>
+                                <img class="img-circle" src="images/man.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas,
+                                    quod ab itaque id!</p>
                             </div>
                             <div class="testimonial-name">EMILIANO AQUILANI</div>
                         </div>
                         <div class="item">
                             <div class="shadow-effect">
-                                <img class="img-circle"
-                                    src="images/man.png" alt=""> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas, quod ab itaque id!</p>
+                                <img class="img-circle" src="images/man.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas,
+                                    quod ab itaque id!</p>
                             </div>
                             <div class="testimonial-name">EMILIANO AQUILANI</div>
                         </div>
                         <div class="item">
                             <div class="shadow-effect">
-                                <img class="img-circle"
-                                    src="images/man.png" alt=""> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas, quod ab itaque id!</p>
+                                <img class="img-circle" src="images/man.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas,
+                                    quod ab itaque id!</p>
                             </div>
                             <div class="testimonial-name">EMILIANO AQUILANI</div>
                         </div>
                         <div class="item">
                             <div class="shadow-effect">
-                                <img class="img-circle"
-                                    src="images/man.png" alt=""> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas, quod ab itaque id!</p>
+                                <img class="img-circle" src="images/man.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae voluptas,
+                                    quod ab itaque id!</p>
                             </div>
                             <div class="testimonial-name">EMILIANO AQUILANI</div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -192,7 +186,7 @@
     <!-- End Teachers Carousel -->
 
     <!-- Results -->
-    <section id="achievements" class="py-5">
+    <section id="achievements" class="bg-light py-5">
         <div class="container">
             <h1 data-aos="fade-up" class="display-4 text-center fw-bold mt-2 mb-4 pb-3">Bizning <span
                     class="text-success">Yutuqlarimiz</span></h1>
@@ -416,11 +410,95 @@
     </section>
     <!-- End About_Classes -->
 
+    <!-- Join us start -->
+    <section>
 
+    </section>
+    <!-- End Join Us -->
 
+    <!-- FAQ start -->
+    <section class="bg-light py-3 py-md-5">
+        <div class="container">
+            <div class="row gy-5 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid rounded" loading="lazy" src="images/5-tashabbus-outside.webp"
+                        alt="How can we help you?">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row justify-content-xl-end">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="h1 mb-3">Ko'p so'raladigan savollar</h2>
+                            <p class="lead fs-4 text-secondary mb-5">We hope you have found an answer to your question.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatem!</p>
+                            <div class="accordion accordion-flush" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                            <ul>
+                                                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quae! Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Lorem ipsum dolor sit amet.
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium voluptatum aliquid minima quas earum asperiores, molestiae ea eaque incidunt velit nihil amet vitae qui non vero iusto consectetur numquam adipisci.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>To cancel your account, please follow these steps:</p>
+                                            <ul>
+                                                <li>Call of Duty: Modern Warfare 2</li>
+                                                <li>Brothers in Arms: Hell's Highway</li>
+                                                <li>Need for Speed: The Run</li>
+                                                <li>Grand Theft Auto: 4</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ End -->
 
     <!-- Contact -->
-    <section id="contact" class="my-3 py-5">
+    <section id="contact" class="bg-light py-5">
         <div class="container px-3">
             <div class="row"
                 style="border: 3px solid #e4e4e9; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px;">
@@ -493,8 +571,8 @@
                 <a target="_blank" href=""><i class="fa-brands fa-x-twitter"></i></a>
             </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Bosh Sahifa</a></li>
-                <li class="list-inline-item"><a href="#about_school">Xaqida</a></li>
+                <li class="list-inline-item"><a href="index.html">Bosh Sahifa</a></li>
+                <li class="list-inline-item"><a href="about.html">Xaqida</a></li>
                 <li class="list-inline-item"><a href="#teachers">Mamuriyat</a></li>
                 <li class="list-inline-item"><a href="#courses">Kurslar</a></li>
                 <li class="list-inline-item"><a href="login.html">Kirish</a></li>
@@ -535,6 +613,7 @@
     <!-- Assets -->
     <script src="js/aos_init.js"></script>
     <script src="js/owl-carousel-init.js"></script>
+    <script src="js/dark_mode.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,126 @@
+/* Fixed contact us btn */
+.fixed_btn {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    background-color: #04c755;
+    border-bottom-left-radius: 10px;
+    z-index: 9999;
+}
+
+.fixed_btn a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* hero start */
+.hero-section {
+    background: url("../images/school-outside-2.webp") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section:before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 1.5em;
+}
+
+.hero-section h2 {
+    font-size: 1.2em;
+}
+
+/* hero end */
+
+/* Features start */
+.carousel-indicators img {
+    width: 70px;
+    display: block;
+}
+
+.carousel-indicators button {
+    width: max-content !important;
+}
+
+.carousel-indicators {
+    position: unset;
+}
+
+/* Features end */
+
+
+/* 5-tashabbus start */
+#about_classes {
+    background-color: #111;
+}
+
+.class_card {
+    position: relative;
+}
+
+#about_classes img {
+    border-radius: 15px;
+}
+
+@media (max-width: 991px) {
+    .class_card_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        width: 97%;
+        padding: 15px 0;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.6);
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+.course_hero {
+    height: 30vh;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_courses {
+    background-color: #151A22;
+}
+
+#about_courses .card {
+    background-color: #1A2029;
+    color: #fff;
+}
+
+/* Classes start */
+
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2 {
     position: relative;
@@ -114,3 +237,22 @@
         left: 0%;
     }
 }
+
+/* Classes end */
+/* 5-tashabbus end */
+
+/* Text underline start */
+#underlineText {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: -10;
+    right: 0;
+    width: 40%;
+    height: 15px;
+    background-color: #02dd5d;
+    bottom: 8%;
+    border-radius: 50px;
+}
+
+/* Text underline end */
