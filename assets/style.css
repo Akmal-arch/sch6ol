@@ -6,8 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Navbar start*/
 .navbar {
-    background-color: #fff; /*#8f8d8e*/
+    background-color: #fff;
+    /*#8f8d8e*/
     height: 80px;
     margin: 15px;
     border-radius: 16px;
@@ -32,7 +34,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #04c755;
-    font-family: "Lilita One", sans-serif;  
+    font-family: "Lilita One", sans-serif;
 }
 
 .navbar .nav-item-btn {
@@ -40,20 +42,6 @@
     background: transparent;
     margin: 0;
     padding: 0;
-}
-
-.login-button {
-    background-color: #009970;
-    color: #fff;
-    font-size: 14px;
-    padding: 8px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: .3s background-color;
-}
-
-.login-button:hover {
-    background-color: #00b383;
 }
 
 .navbar-toggler {
@@ -99,9 +87,34 @@
     }
 }
 
+/* Navbar end */
+
+/* Fixed contact us btn */
+.fixed_btn {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    background-color: #04c755;
+    border-bottom-left-radius: 10px;
+    z-index: 9999;
+}
+
+.fixed_btn a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* hero start */
 .hero-section {
-    background: url("../images/Picsart_23-03-13_17-28-03-206.jpg") no-repeat center;
-    background-position: center 50px;
+    background: url("../images/school-outside-2.webp") no-repeat center;
+    background-position: center;
     background-size: cover;
     width: 100%;
 }
@@ -130,41 +143,44 @@
     font-size: 1.2em;
 }
 
+/* hero end */
 
-#features {
-    background-color: #F5F5F5;
-}
-#features .carousel-item .container {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+/* Features start */
+.carousel-indicators img {
+    width: 70px;
+    display: block;
 }
 
-@media (max-width: 481px) {
-    html {
-        font-size: 14px;
-    }
+.carousel-indicators button {
+    width: max-content !important;
 }
 
-@media (max-width: 600px) {
-    #teachers .card {
-        max-width: 80%;
-        margin: auto;
-    }
+.carousel-indicators {
+    position: unset;
 }
 
+/* Features end */
 
+/* achievements start */
+#achievements {
+    background-color: #F1F5F9;
+}
+
+/* achievements end */
+
+/* 5-tashabbus start */
 #about_classes {
     background-color: #111;
 }
+
 .class_card {
     position: relative;
 }
+
 #about_classes img {
     border-radius: 15px;
 }
+
 @media (max-width: 991px) {
     .class_card_text {
         position: absolute;
@@ -190,6 +206,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #about_courses {
     background-color: #151A22;
 }
@@ -199,47 +216,20 @@
     color: #fff;
 }
 
-#achievements img {
-    width: 70%;
-}
-#achievements .row {
-    position: relative;
-    top: -30px;
-}
-#achievements h1 {
-    font-size: 4.125rem;
-    color: coral;
-}
-#achievements p {
-    font-size: 1.5rem;
-    font-weight: 600;
+/* 5-tashabbus end */
+
+/* Text underline start */
+#underlineText {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: -10;
+    right: 0;
+    width: 40%;
+    height: 15px;
+    background-color: #02dd5d;
+    bottom: 8%;
+    border-radius: 50px;
 }
 
-
-section#counter-stats {
-	display: flex;
-	justify-content: center;
-	margin-top: 100px;
-
-}
-section#counter-stats .row {
-    margin-top: 50px;
-}
-.stats {
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.stats .fa {
-  color: #008080;
-  font-size: 60px;
-}
-@media (max-width: 767px) {
-    section#counter-stats img {
-        width: 90%;
-    }
-}
-/*/ end count stats /*/
-
+/* Text underline end */
