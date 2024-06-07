@@ -1,3 +1,95 @@
+/* Features */
+#features {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    width: 100%;
+    background-color: #EFF5F8;
+    position: relative;
+}
+
+#features::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/lines.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .13;
+}
+
+#features .container {
+    margin: 2% 0%;
+    width: 100%;
+}
+
+#features .container-heading {
+    text-align: center;
+    color: #262f68;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 50px 0%;
+}
+
+#features .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#features .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#features .item-icon {
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+    margin-bottom: 0.2rem;
+    border-radius: 25px;
+}
+
+#features #map-icon {
+    background-color: #ffe6df;
+}
+
+#features #coin-icon {
+    background-color: #dff0fe;
+}
+
+#features #comparison-icon {
+    background-color: #fcf3df;
+}
+
+#features #laptop-icon {
+    background-color: #eff2ff;
+}
+
+#features .item-details {
+    font-size: 17px;
+    text-align: center;
+    color: #7980a3;
+}
+
+/* Features End */
+
+
 /* Fixed contact us btn */
 .fixed_btn {
     position: fixed;
@@ -213,7 +305,7 @@
         padding-left: 70px;
         padding-right: 25px;
     }
-    
+
     /* Make sure that all arrows are pointing leftwards */
     .timeline-2::before {
         left: 60px;
@@ -246,7 +338,7 @@
     position: absolute;
     left: 30%;
     transform: translateX(-50%);
-    z-index: -10;
+    z-index: -1;
     right: 0;
     width: 40%;
     height: 15px;
@@ -256,3 +348,7 @@
 }
 
 /* Text underline end */
+
+/* Join us start */
+
+/* Join us End */
